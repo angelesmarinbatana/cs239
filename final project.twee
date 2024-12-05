@@ -1,0 +1,287 @@
+:: StoryTitle
+final project
+
+
+:: StoryData
+{
+  "ifid": "876601F7-9526-484B-9B05-3EBAD6BB6322",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "index",
+  "zoom": 1
+}
+
+
+:: 2 {"position":"550,625","size":"100,100"}
+(text-colour:grey)[''Scenario 2: Encryption '']
+
+Your company is a messaging app promoting secure communication, but you notice the company has access to user's messages which do not appear to be end-to-end encrypted
+
+//What do you do?
+//
+
+[[The company needs to access message in order to improve their service, and this data is kept and stored ->keep]]
+
+[[Implement e2ee so only the sender and recipient can access them ->encrypt]]
+
+
+:: 3 {"position":"675,875","size":"100,100"}
+(text-colour:grey)[''Scenario 3: AI'']
+
+Your company is a building an AI model to make song recomendations more releant for users of a song streaming platform. You learn that users sensitive information is being used to train the AI model
+
+//What do you do?
+//
+
+[[ It's important to improve the AI's accuracy, and you need big amount of data for imporved accurace->improve]]
+
+[[Spend additional hours to replace the current training data with anonymized data  ->replace]]
+
+
+:: 4 {"position":"675,1125","size":"100,100"}
+(text-colour:grey)[''Scenario 4:  Design'']
+
+Your company is starting to develop a new social media platform, but has not yet considered security features like data encryption and consent management. 
+
+//What do you do?
+//
+
+[[ Conider privacy down the line, add privacy features after focusing on app functionality first  ->nofunc]]
+
+[[Build privacy features such as encryption from the beggining, ensuring secure design from the start  ->yesaddpriv]]
+
+
+:: 5 {"position":"675,1375","size":"100,100"}
+(text-colour:grey)[''Scenario 5:  Children'']
+
+Your company is developming an educational game for children, and you notice data is being collected without parent consent. 
+
+//What do you do?
+//
+
+[[ Conider compliance and implement privacy regulation standards, obtaining parental consent before collecting data  ->compliance]]
+
+[[Continue collecting customer data to imporve the user experience.  ->continuecollecting]]
+
+
+:: 6 {"position":"675,1625","size":"100,100"}
+(text-colour:grey)[''Scenario 6:  Data Storagce'']
+
+Your company building a platform to store medical records and is considering how to handle sensitive health related information for patients. 
+
+//What do you do?
+//
+
+[[ Store the patient records in the database as plaintext, as only database administrators have authorized access to these records.  ->noencyrpt]]
+
+[[Encrypt the data for all users and limit authorized to only those who need it.  ->yesencypt]]
+
+
+:: 7 {"position":"675,1875","size":"100,100"}
+(text-colour:grey)[''Scenario 7:  Third Party Sharing '']
+
+Your company develops a free app that genrates revenue through targeted advertisements.  
+
+//What do you do?
+//
+
+[[ Automaticaly share user data to enhance their user experience  ->noux]]
+
+[[Provide users with a way to opt into third party data sharing for ads  ->yesux]]
+
+
+:: 8 {"position":"675,2125","size":"100,100"}
+(text-colour:grey)[''Scenario 8:  Tracking'']
+
+Your company runs an e-commerse website that personalizes recomendations for products based on user behavior. 
+
+//What do you do?
+//
+
+[[ Track the browsing behavior of users automaticaly to create more detailed and more personalied profiles for advertisements  ->notrack]]
+
+[[Allow users the option to opt out of trackinging for personalized recommendations and provide a way to manage preferences  ->yestrack]]
+
+
+:: 9 {"position":"675,2375","size":"100,100"}
+(text-colour:grey)[''Scenario 9:  Photos'']
+
+Your company is a photo-sharing app that lets users upload pictures and share pictures with friends. 
+
+//What do you do?
+//
+
+[[ Ask for permission before accessing the photo libraries of users and provide an explanaition on how photos will be used  ->yespics]]
+
+[[Automatically collect user's photo libraries and to allow seamless upload, ehnancing user expereince  ->nopics]]
+
+
+:: collect {"position":"675,500","size":"100,100"}
+(text-colour:orange)[''Uh Oh!'']
+
+This violates user privacy and may raise issues with non-compluance with data protection laws. It also risks user trust. 
+
+[[Senario 2->2]]
+
+
+:: compliance {"position":"675,1500","size":"100,100"}
+ (text-colour:green)[''Good Job!'']
+
+This protects the privacy of children and ensures compliance to ensure that personal data is protected
+
+[[Senario 6->6]]
+
+
+:: consent {"position":"550,500","size":"100,100"}
+(text-colour:green)[''Good Job!'']
+
+Asking for consent is important for compliance reasons, data protection laws, and for informed consent and transparency. 
+
+[[Senario 2->2]]
+
+
+:: continuecollecting {"position":"800,1500","size":"100,100"}
+(text-colour:orange)[''Uh Oh!'']
+
+This option exploits children, who are a vulnerable population and violates regulations, putting their data at risk. 
+
+[[Senario 6->6]]
+
+
+:: encrypt {"position":"675,750","size":"100,100"}
+(text-colour:green)[''Good Job!'']
+
+Respecting user's secure communication protects confidentiality and maintains user trust.
+
+[[Senario 3->3]]
+
+
+:: fin {"position":"675,2625","size":"100,100"}
+(text-colour:magenta)[//''Did you make the right choice?''//]
+
+
+
+
+:: improve {"position":"675,1000","size":"100,100"}
+(text-colour:orange)[''Uh Oh!'']
+
+Exposing user personal data puts user privasy at risk and can lead to bias and harful profiling and steryotyping of users 
+
+[[Senario 4->4]]
+
+
+:: index {"position":"675,250","size":"100,100"}
+''Fix the Problem: Privacy Issues in Technology
+''
+In this game you are a software engineer. You will need to navigate privacy-related issues while considering the ethical implications of your decisions. 
+
+[[Start->start]]
+
+
+
+:: keep {"position":"550,750","size":"100,100"}
+(text-colour:orange)[''Uh Oh!'']
+
+Allowing unauthorized access to personal messages compromises confidentiality and violates user privacy. 
+
+[[Senario 3->3]]
+
+
+:: noencyrpt {"position":"800,1750","size":"100,100"}
+(text-colour:orange)[''Uh Oh!'']
+
+This puts sensitive customer data at risk and increases the risk of data breaches, which may comprosives sentive customer data 
+
+[[Senario 7->7]]
+
+
+:: nofunc {"position":"675,1250","size":"100,100"}
+(text-colour:orange)[''Uh Oh!'']
+
+This option treats privacy as an afterthought, which can expose user data and put their information at risk before security has been implemented.  
+
+[[Senario 5->5]]
+
+
+:: nopics {"position":"800,2500","size":"100,100"}
+(text-colour:orange)[''Uh Oh!'']
+
+This option violates user trust and consey by collecting data without explicit user consent, infringing on their privacy
+
+[[fin->fin]]
+
+
+:: notrack {"position":"675,2250","size":"100,100"}
+(text-colour:orange)[''Uh Oh!'']
+
+This is invasive to user data, and violates user trust and privacy, which undermines trust and user's right to privacy. 
+
+[[Senario 9->9]]
+
+
+:: noux {"position":"675,2000","size":"100,100"}
+(text-colour:orange)[''Uh Oh!'']
+
+This violates user trust by sharing their information and data without concent, which undermines privacy rights
+
+[[Senario 8->8]]
+
+
+:: replace {"position":"800,1000","size":"100,100"}
+ (text-colour:green)[''Good Job!'']
+
+This protects the privacy of users by ensuring that their personal information is anonymizez, which reduces the risk of discrimination or harm. 
+
+[[Senario 4->4]]
+
+
+:: start {"position":"675,375","size":"100,100"}
+(text-colour:grey)[''Scenario 1: Data Collection '']
+
+You work at a company that collects user data. You notice that there is a lack of informed consent, as users do not know their information is being collected. 
+
+//What do you do?
+//
+[[Add a privacy policy and ask for user consent before collecting data->consent]]
+
+[[Leave collection as-is, no one is being harmed and users don't know ->collect]]
+
+
+:: yesaddpriv {"position":"800,1250","size":"100,100"}
+ (text-colour:green)[''Good Job!'']
+
+This prioritizes user privacy from the start, which is important when you are dealing with any kind of user data and senstitive information and essures that privacy is at the core of the platform. 
+
+[[Senario 5->5]]
+
+
+:: yesencypt {"position":"675,1750","size":"100,100"}
+ (text-colour:green)[''Good Job!'']
+
+This choice ensures that sensitive data is propertected from unauthorized access and maintains trust and confefentiality. 
+
+[[Senario 7->7]]
+
+
+:: yespics {"position":"675,2500","size":"100,100"}
+ (text-colour:green)[''Good Job!'']
+
+This option ensures that users are aware of what data is being collected and accessed and gives them control over it, promoting autonomy and transparency. 
+
+[[fin->fin]]
+
+
+:: yestrack {"position":"800,2250","size":"100,100"}
+ (text-colour:green)[''Good Job!'']
+
+Allowing informed conset is important to ensure transparency and respects the autonomy of users to allow them control over their data and tracking behavior. 
+
+[[Senario 9->9]]
+
+
+:: yesux {"position":"800,2000","size":"100,100"}
+ (text-colour:green)[''Good Job!'']
+
+Clearly explsining what data is being shared and to who ensures transparency and informed consent, allows users to choose if they want their data to be shared. 
+
+[[Senario 8->8]]
